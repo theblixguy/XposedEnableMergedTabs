@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:2:5-54
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:4:5-19:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:7:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:8:9-35
+	android:allowBackup
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:5:9-35
+	android:icon
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:9:9-40
+meta-data#xposedmodule
+ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:10:9-12:36
+	android:value
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:12:13-33
+	android:name
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:11:13-40
+meta-data#xposeddescription
+ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:13:9-15:94
+	android:value
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:15:13-91
+	android:name
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:14:13-45
+meta-data#xposedminversion
+ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:16:9-18:34
+	android:value
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:18:13-31
+	android:name
+		ADDED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml:17:13-44
+uses-sdk
+INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Suyash\AndroidStudioProjects\XposedEnableMergedTabs\app\src\main\AndroidManifest.xml
