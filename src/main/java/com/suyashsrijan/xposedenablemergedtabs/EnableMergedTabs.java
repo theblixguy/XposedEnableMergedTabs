@@ -29,6 +29,15 @@ public class EnableMergedTabs implements IXposedHookLoadPackage{
             } catch (Throwable t) {
                 XposedBridge.log(t);
             }
+        } else if (lpparam.packageName.equals("com.android.chrome")) {
+            XposedBridge.log("EnableMergedTabs: Chrome Stable found!");
+            try {
+                findAndHookMethod("org.chromium.chrome.browser.util.FeatureUtilities", lpparam.classLoader, "isDocumentMode", Context.class, XC_MethodReplacement.returnConstant(true));
+                findAndHookMethod("org.chromium.chrome.browser.tabmodel.DocumentModeAssassin", lpparam.classLoader, "isMigrationNecessary", XC_MethodReplacement.returnConstant(false));
+                XposedBridge.log("EnableMergedTabs: Hooked!");
+            } catch (Throwable t) {
+                XposedBridge.log(t);
+            }
         }
     }
 }
